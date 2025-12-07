@@ -416,3 +416,42 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+=======
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Rider
+.idea/
+
+# Files built by NuGet
+*.nupkg
+packages/
+
+# VS Code
+.vscode/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Publish folder
+publish/
+
+# Others
+*.exe
+*.dll

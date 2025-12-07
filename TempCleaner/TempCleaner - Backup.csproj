@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <PublishAot>true</PublishAot>
+    <StartupObject>TempCleaner</StartupObject>
+    <ApplicationIcon>ideogram-v3.0_Genera_un_immagine_per_un_mio_tool_di_pulizia_di_computer_deve_essere_un_logo-0.ico</ApplicationIcon>
+    <OutputType>WinExe</OutputType>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ideogram-v3.0_Genera_un_immagine_per_un_mio_tool_di_pulizia_di_computer_deve_essere_un_logo-0.ico" />
+  </ItemGroup>
+
+</Project>
